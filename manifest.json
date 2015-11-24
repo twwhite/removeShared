@@ -2,7 +2,6 @@
   "name": "Hide Shared Posts",
   "version": "1.1.2",
   "manifest_version": 2,
-  "icons": {"128":"icon128.png"},
   "description": "Injects a Javascript snippet that hides all shared posts on facebook.",
   "permissions": [
   "https://*/*",
