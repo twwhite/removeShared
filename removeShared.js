@@ -1,3 +1,3 @@
 window.setInterval(function(){
-  $("div:contains('test text')").closest('[id^=blah_]').remove();
+  $("div:contains(' shared ')").closest('[id^=hyperfeed_story_id_]').remove();
 }, 5000);
