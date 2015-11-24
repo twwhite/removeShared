@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Menu</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 90%;
+		background-color: #f7f7f7;
+      }
+	  #heading{
+		font-size: 100%;
+		width: 100%;
+		background-color: #3b5998;
+		}
+	  #heading a{
+		margin-left: 25%;
+		text-decoration: none;
+		color: white;
+	  }
+      #status3 {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 350px;
+		margin: 10px 10px 10px 10px;
+
+      }
+	  #options{
+	  margin: 10px 10px 10px 10px;
+		width: 290px;
+	  }
+	  	  #status{
+	  	  margin: 10px 10px 10px 10px;
+	  #status2{
+	  	  margin: 10px 10px 10px 10px;
+}
+    </style>
+  </head>
+  <body>
+	<div id="heading"><b><a href="http://www.timwhiteideas.com" target="_blank">Hide Shared Posts v1.1.2</a></b></div>
+    <div id="status3">Select one or more of the checkboxes below<br>to hide Shared, Liked and/or via posts.</div>
+	<div id="options">
+		<input type="checkbox" id="sharedbox">Hide "Shared" posts<br>
+		<input type="checkbox" id="likedbox">Hide "Liked" posts<br>
+		<input type="checkbox" id="viabox">Hide "via" posts<br>
+		<button id="save">Save</button>
+	</div>
+	<div id="status"></div>
+	<div id="status2">Be sure to refresh Facebook to enable these options.<br><br>Disclaimer: It might seem like you are not seeing all of the posts on your feed. You either A) are, or B) need to refresh the page.</div>
+	<script src="options.js"></script>
+  </body>
+</html>
