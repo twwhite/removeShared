@@ -1,3 +1,3 @@
 window.setInterval(function(){
   $("div:contains(' shared ')").closest('[id^=hyperfeed_story_id_]').remove();
-}, 5000);
+}, 1000);
